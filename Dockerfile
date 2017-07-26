@@ -6,7 +6,7 @@ ENV DOCKER_DD_AGENT yes
 ENV AGENT_VERSION 1:5.8.5-1
 
 # Install the Agent
-ADD https://2043-34269086-gh.circle-artifacts.com/0/home/ubuntu/docker-dd-agent-build-deb-x64/pkg/datadog-agent_5.16.0-1_amd64.deb /dd.deb
+ADD https://2048-34269086-gh.circle-artifacts.com/0/home/ubuntu/docker-dd-agent-build-deb-x64/pkg/datadog-agent_5.15.0.git.1.14192c1-1_amd64.deb /dd.deb
 RUN dpkg -i /dd.deb && rm /dd.deb
 
 # Configure the Agent
